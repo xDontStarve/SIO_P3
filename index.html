@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choropleth Maps</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #mapTitles, #mapMovies, #mapShows {
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Titles Per Country</h2>
+    <div id="mapTitles"></div>
+    <h2>Movies Per Country</h2>
+    <div id="mapMovies"></div>
+    <h2>Shows Per Country</h2>
+    <div id="mapShows"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="data.js"></script>
+    <script src="maps.js"></script>
+</body>
+</html>
